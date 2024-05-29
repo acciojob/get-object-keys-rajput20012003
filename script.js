@@ -1,14 +1,12 @@
-//your JS code here. If required.
-// Define the student object
+// Create the student object
 const student = {
-  name: "John"
+    name: 'Alice'
 };
 
-// Add the getKeys() method to the Object prototype
+// Add the getKeys method to the Object prototype
 Object.prototype.getKeys = function() {
-  return Object.keys(this);
+    return Object.keys(this);
 };
 
-// Example usage
-console.log(student.getKeys()); // Output: ["name"]
-
+// Test the getKeys method
+console.log(student.getKeys()); // Output: ['name']
